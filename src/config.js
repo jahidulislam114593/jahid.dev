@@ -59,10 +59,9 @@
 
 /** @type {SiteConfig} */
 export const siteConfig = {
-  name: "Jahidul Islam",
+name: "Jahidul Islam",
   title: "Software Engineer",
-  description:
-    "Portfolio website of Jahidul Islam",
+  description: "Portfolio of Jahidul Islam - Software Engineer specializing in React, Go, and full-stack development. Passionate about building innovative solutions and community service.",
   profileImage: "/images/profile.png",
   accentColor: "#1d4ed8",
   social: {
