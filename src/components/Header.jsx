@@ -3,6 +3,7 @@ import { siteConfig } from '../config';
 
 export default function Header() {
   const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+  const hasThesis = !!siteConfig.thesis;
   const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
   const hasEducation = siteConfig.education && siteConfig.education.length > 0;
   const hasActivities = siteConfig.activities && siteConfig.activities.length > 0;
@@ -46,6 +47,16 @@ export default function Header() {
                 className="text-gray-700 hover:text-black transition-colors font-medium"
               >
                 Projects
+              </a>
+            </li>
+          )}
+          {hasThesis && (
+            <li>
+              <a
+                href="#thesis"
+                className="text-gray-700 hover:text-black transition-colors font-medium"
+              >
+                Thesis
               </a>
             </li>
           )}

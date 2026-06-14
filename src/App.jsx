@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import SEOHead from './components/SEOHead'
+import Thesis from './components/Thesis'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Hero/>
     <About/>
+    <Thesis/>
     <Projects/>
     <Experience/>
     <Education/>

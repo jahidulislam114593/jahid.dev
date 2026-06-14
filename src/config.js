@@ -67,7 +67,7 @@ name: "Jahidul Islam",
   social: {
     email: "jahid.prog@gmail.com",
     linkedin: "https://linkedin.com/in/thisisjahid",
-    github: "https://github.com/jahidulislam114593",
+    github: "https://github.com/jahidprog",
   },
   resume: "/files/jahidulislam_23_nov_25.pdf",
   aboutMe:
@@ -84,6 +84,13 @@ name: "Jahidul Islam",
     "Git",
   ],
   projects: [
+    {
+      name: "ADAS Lane Detection",
+      description:
+        "A real-time lane detection pipeline built with Python and OpenCV. Detects lane lines in dashcam footage, measures road curvature and vehicle offset, and overlays a live heads-up display on the output video. Features dual-mode thresholding, sliding window search, polynomial fitting, and an optional deep learning fallback using Ultra-Fast Lane Detection (UFLD).",
+      link: "https://github.com/jahidprog/adas_lane_detection",
+      skills: ["Python", "OpenCV", "NumPy", "ONNX Runtime", "Computer Vision"],
+    },
     {
       name: "Drag-File",
       description:
@@ -133,7 +140,22 @@ name: "Jahidul Islam",
       link: "https://glasses-auth-39338.web.app/",
       skills: ["React", "TailwindCSS", "JavaScript", "Firebase"],
     },
+
   ],
+  thesis: {
+    title: "CAS-FD: Contact-Aware Temporal Sampling for Single-View Foul vs. Dive Recognition",
+    year: "2026",
+    institution: "Premier University Chittagong",
+    abstract: "Distinguishing a genuine foul from a simulated dive in football is one of the sport's most contested fine-grained recognition problems, especially from a single broadcast view without multi-angle cameras. We introduce a balanced 600-clip single-view Foul/Dive dataset and show that contact-aware sampling — concentrating the model's attention around the moment of physical contact — yields substantially improved recognition over treating all frames equally.",
+    highlights: [
+      "86.0% accuracy and macro-F1 of 0.860 on held-out test split",
+      "12 percentage point gain over contact-unaware alternatives",
+      "Introduced a new 600-clip single-view Foul/Dive benchmark dataset",
+      "Reproducible pipeline with grounded evaluation framework",
+    ],
+    tech: ["Python", "PyTorch", "Computer Vision", "Video Understanding", "Deep Learning"],
+    github: "https://github.com/jahidprog",
+  },
   experience: [
     {
       company: "Programming Hero",
@@ -152,8 +174,7 @@ name: "Jahidul Islam",
       dateRange: "2020 - 2024",
       achievements: [
         "CGPA: 3.22/4.00",
-        // "Champion at NSU Inter-University Hackathon 2020",
-        // "ICPC Asia Dhaka Regional Contestant (2020, 2021)",
+        "Thesis: CAS-FD — Contact-Aware Temporal Sampling for Single-View Foul vs. Dive Recognition",
       ],
     },
   ],
